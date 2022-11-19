@@ -1,0 +1,17 @@
+{
+  "name": "server_for_auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
